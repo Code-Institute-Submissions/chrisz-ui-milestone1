@@ -12,16 +12,16 @@
     <header>
 <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Chris | Web-developer</a>
+            <div class="container">
+                <a class="navbar-brand" href="#">Chris Nuij | Web-developer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">About</a>
@@ -33,23 +33,47 @@
                                 <a class="nav-link" href="#contact">Contact Me</a>
                             </li>
                         </ul>
+                        <i class="bi bi-list mobile-nav-toggle">::before</i>
                     </div>
             </div>
         </nav>
     </header>
 <!-- Home Page -->
-    <section id="home">
+    <section id="home" class="pages">
         <div class="container">
             <div class="row">
-                <h1>Welcome to my page</h1> 
+                <h1 class="introduction-title text-center">Hi, I'm Chris :)</h1> 
+                <h2>A Web-developer</h2>    
                     <p>
-                        Welcome page
+                        Always trying to do better than lasst time and exceed expectations. Welcome to my portfolio
                     </p>
+               
+            </div>
+             <button type="button" class="btn btn-outline-light portfolio-button" 
+                onclick="window.location.href='#projects'">Check out my previous projects</button>
+        </div>
+        <div class="container-lg bg-home">
+            <div class="row">
+                <div class="bg-home">
+                <pre class="text-center">
+      ___           ___           ___       ___           ___           ___           ___     
+     /\__\         /\  \         /\__\     /\  \         /\  \         /\__\         /\  \    
+    /:/ _/_       /::\  \       /:/  /    /::\  \       /::\  \       /::|  |       /::\  \   
+   /:/ /\__\     /:/\:\  \     /:/  /    /:/\:\  \     /:/\:\  \     /:|:|  |      /:/\:\  \  
+  /:/ /:/ _/_   /::\~\:\  \   /:/  /    /:/  \:\  \   /:/  \:\  \   /:/|:|__|__   /::\~\:\  \ 
+ /:/_/:/ /\__\ /:/\:\ \:\__\ /:/__/    /:/__/ \:\__\ /:/__/ \:\__\ /:/ |::::\__\ /:/\:\ \:\__\
+ \:\/:/ /:/  / \:\~\:\ \/__/ \:\  \    \:\  \  \/__/ \:\  \ /:/  / \/__/~~/:/  / \:\~\:\ \/__/
+  \::/_/:/  /   \:\ \:\__\    \:\  \    \:\  \        \:\  /:/  /        /:/  /   \:\ \:\__\  
+   \:\/:/  /     \:\ \/__/     \:\  \    \:\  \        \:\/:/  /        /:/  /     \:\ \/__/  
+    \::/  /       \:\__\        \:\__\    \:\__\        \::/  /        /:/  /       \:\__\    
+     \/__/         \/__/         \/__/     \/__/         \/__/         \/__/         \/__/    
+                </pre>  
+                </div>
             </div>
         </div>
     </section>
 <!-- About Page -->
-    <section id="about">
+    <section id="about" class="pages">
         <div class="container">
             <div class="row">
                 <h1>About</h1> 
@@ -64,7 +88,7 @@
         </div>
     </section>
 <!-- Projects Page -->
-    <section id="projects">
+    <section id="projects" class="pages">
         <div class="container">
             <div class="row">
                 <h1>Project gallery with overlay of info</h1> 
@@ -115,17 +139,18 @@
         </div>
     </section>
 <!-- Contact Page -->
-    <section id="contact">
+    <section id="contact" class="pages">
         <div class="container">
             <div class="row">
-                <h1>Contact Form</h1> 
-                    <p>
-                        this is where I'll showcase the work I've done on previous projects. 
-                        Hope you like it and hire me Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Nihil accusamus officia fugit officiis. Ducimus, facere. Maiores minima ratione dolorem. 
-                        Unde reiciendis quo nisi ratione tempore minima distinctio 
-                        ecusandae eius possimus!
-                    </p>
+                <h1>Send me a message</h1>
+                <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
             </div>
         </div>
     </section> 

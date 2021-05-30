@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------colours */
 body{
@@ -5,8 +6,7 @@ body{
 }
 
 /*--------------------------------------Special paddings/margins/text */
-#about{
-    margin: 0;
+.pages{
     padding-top: 100px;
 }
 
@@ -17,17 +17,17 @@ body{
 }
 
 /*--------------------------------------carousel */
-.carousel-indicatorss button{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-        width: 50px;
-    height: 50px;
+.carousel-indicators [data-bs-target]{
+    height: 30px;
     border-radius: 50%;
+}
 
+/*--------------------------------------Home Page */
+.introduction-title{
+    font-size: 5rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.portfolio-button{
 }
