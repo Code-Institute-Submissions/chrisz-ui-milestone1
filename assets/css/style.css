@@ -8,12 +8,17 @@ body{
 
 /*--------------------------------------Special paddings/margins/text */
 .pages{
-    padding-top: 100px;
+    /*padding-top: 100px; have to add padding when smaller for intro*/
     height: 100vh;
 }
 
 .contact-page{
     padding-top: 100px;
+}
+
+.home-intro{
+    top: 50%;
+    display: inline-block;
 }
 
 

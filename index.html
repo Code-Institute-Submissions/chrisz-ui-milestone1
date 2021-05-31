@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Chris Nuij | Web-developer</title>
 </head>
@@ -40,25 +41,47 @@
 <!-- Home Page -->
     <section id="home" class="pages">
         <div class="container">
-            <div class="row justify-content-left">
-                <div class="col-8 home-intro">
-                    <h1 class="introduction-title">Hi, I'm Chris</h1> 
-                    <h2>A Web-developer</h2>    
-                        <p>
-                            Always trying to do better than last time and exceed expectations. Welcome to my portfolio
-                        </p>
-                        <button type="button" class="btn btn-outline-light portfolio-button" 
-                onclick="window.location.href='#projects'">Check out my previous projects</button>
-                </div>
-                <div class="col-4 home-image">
-                    <img src="/assets/img/profile.png" alt="profile photo">
-                </div>
+            <div class="row align-items-center justify-content-left">
+                <div class="col-8 home-intro d-flex align-items-center vh-100">
+                    <div class="container">
+                        <h1 class="introduction-title">Hi, I'm Chris</h1> 
+                        <h2>A Web-developer</h2>    
+                            <p>
+                                Always trying to do better than last time and exceed expectations. Welcome to my portfolio
+                            </p>
+                            <p>
+                                Send me a message <a href="#contact">here</a> or contact me on any of the websites below
+                            </p>
+                        <!-- social links -->
+                            <div class="social-links">
+                                <div class="col-sm-4">
+                                    <ul class="list-inline social-links">
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank">
+                                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                <span class="sr-only">Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" target="_blank">
+                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                                <span class="sr-only">LinkedIn</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <button type="button" class="btn btn-outline-light portfolio-button" 
+                                onclick="window.location.href='#projects'">Check out my previous projects</button>
+                            </div>
+                    </div>
+
             </div>   
         </div>
     </section>
 <!-- About Page -->
     <section id="about" class="pages">
-        <div class="container">
+        <div class="container d-flex align-items-center vh-100">
             <div class="row">
                 <h1>About</h1> 
                     <p>
@@ -73,7 +96,7 @@
     </section>
 <!-- Projects Page -->
     <section id="projects" class="pages">
-        <div class="container">
+        <div class="container d-flex align-items-center vh-100">
             <div class="row">
                 
                 <h1>Project gallery with overlay of info</h1> 
@@ -125,7 +148,7 @@
     </section>
 <!-- Contact Page -->
     <section id="contact" class="pages contact-page">
-        <div class="container">
+        <div class="container d-flex align-items-center vh-100">
             <div class="row justify-content-center">
                 <div class="col-8">
                     <h1>Send me a message</h1>
