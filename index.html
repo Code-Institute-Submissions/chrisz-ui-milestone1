@@ -9,10 +9,10 @@
     <title>Chris Nuij | Web-developer</title>
 </head>
 <body>
-    <header>
 <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-            <div class="container">
+    <header>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
                 <a class="navbar-brand" href="#">Chris Nuij | Web-developer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,43 +33,27 @@
                                 <a class="nav-link" href="#contact">Contact Me</a>
                             </li>
                         </ul>
-                        <i class="bi bi-list mobile-nav-toggle">::before</i>
                     </div>
             </div>
-        </nav>
+    </nav>
     </header>
 <!-- Home Page -->
     <section id="home" class="pages">
         <div class="container">
-            <div class="row">
-                <h1 class="introduction-title text-center">Hi, I'm Chris :)</h1> 
-                <h2>A Web-developer</h2>    
-                    <p>
-                        Always trying to do better than lasst time and exceed expectations. Welcome to my portfolio
-                    </p>
-               
-            </div>
-             <button type="button" class="btn btn-outline-light portfolio-button" 
+            <div class="row justify-content-left">
+                <div class="col-8 home-intro">
+                    <h1 class="introduction-title">Hi, I'm Chris</h1> 
+                    <h2>A Web-developer</h2>    
+                        <p>
+                            Always trying to do better than last time and exceed expectations. Welcome to my portfolio
+                        </p>
+                        <button type="button" class="btn btn-outline-light portfolio-button" 
                 onclick="window.location.href='#projects'">Check out my previous projects</button>
-        </div>
-        <div class="container-lg bg-home">
-            <div class="row">
-                <div class="bg-home">
-                <pre class="text-center">
-      ___           ___           ___       ___           ___           ___           ___     
-     /\__\         /\  \         /\__\     /\  \         /\  \         /\__\         /\  \    
-    /:/ _/_       /::\  \       /:/  /    /::\  \       /::\  \       /::|  |       /::\  \   
-   /:/ /\__\     /:/\:\  \     /:/  /    /:/\:\  \     /:/\:\  \     /:|:|  |      /:/\:\  \  
-  /:/ /:/ _/_   /::\~\:\  \   /:/  /    /:/  \:\  \   /:/  \:\  \   /:/|:|__|__   /::\~\:\  \ 
- /:/_/:/ /\__\ /:/\:\ \:\__\ /:/__/    /:/__/ \:\__\ /:/__/ \:\__\ /:/ |::::\__\ /:/\:\ \:\__\
- \:\/:/ /:/  / \:\~\:\ \/__/ \:\  \    \:\  \  \/__/ \:\  \ /:/  / \/__/~~/:/  / \:\~\:\ \/__/
-  \::/_/:/  /   \:\ \:\__\    \:\  \    \:\  \        \:\  /:/  /        /:/  /   \:\ \:\__\  
-   \:\/:/  /     \:\ \/__/     \:\  \    \:\  \        \:\/:/  /        /:/  /     \:\ \/__/  
-    \::/  /       \:\__\        \:\__\    \:\__\        \::/  /        /:/  /       \:\__\    
-     \/__/         \/__/         \/__/     \/__/         \/__/         \/__/         \/__/    
-                </pre>  
                 </div>
-            </div>
+                <div class="col-4 home-image">
+                    <img src="/assets/img/profile.png" alt="profile photo">
+                </div>
+            </div>   
         </div>
     </section>
 <!-- About Page -->
@@ -83,7 +67,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti officiis consectetur officia numquam. Quis enim dolore quaerat totam praesentium quam illo numquam. Voluptatem exercitationem quos fuga amet quisquam! Unde, mollitia.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium enim adipisci nesciunt iste fugiat illum magni asperiores iure expedita, doloremque voluptatem nostrum quis ad architecto cumque tempora velit vero dolorum?
 
-                    </p>
+                    </p>  
             </div>
         </div>
     </section>
@@ -91,6 +75,7 @@
     <section id="projects" class="pages">
         <div class="container">
             <div class="row">
+                
                 <h1>Project gallery with overlay of info</h1> 
                     <p>
                         this is where I'll showcase the work I've done on previous projects. 
@@ -98,7 +83,7 @@
                     </p>
             </div>
 <!-- Projects gallery -->
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" >
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -139,18 +124,27 @@
         </div>
     </section>
 <!-- Contact Page -->
-    <section id="contact" class="pages">
+    <section id="contact" class="pages contact-page">
         <div class="container">
-            <div class="row">
-                <h1>Send me a message</h1>
-                <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h1>Send me a message</h1>
+                    <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
                 </div>
-                <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h2>Or find me on</h2>
+                </div>  
             </div>
         </div>
     </section> 
