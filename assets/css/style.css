@@ -6,6 +6,10 @@ body{
     color: #ffffff;
 }
 
+.test{
+    padding: 0;
+}
+
 /*--------------------------------------Special paddings/margins/text */
 .pages{
     /*padding-top: 100px; have to add padding when smaller for intro*/
