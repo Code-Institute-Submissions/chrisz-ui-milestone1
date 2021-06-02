@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Chris Nuij | Web-developer</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navigation" data-bs-offset="0" class="scrollspy-nav" tabindex="0">
 <!-- Navbar -->
     <header>
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <nav id="navigation" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
                 <a class="navbar-brand" href="#">Chris Nuij | Web-developer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -51,7 +51,7 @@
                                 Always trying to do better than last time and exceed expectations. Welcome to my portfolio
                             </p>
                             <p>
-                                Send me a message <a href="#contact">here</a> or contact me on any of the websites below
+                                Send me a message <a class="btn" href="#contact">here</a> or contact me on any of the websites below
                             </p>
                         <!-- social links -->
                             <div class="social-links">
@@ -105,40 +105,43 @@
                     <h1>Skills</h1> 
                     <div class="row progress-section">
                         <div class="col">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" 
-                                aria-valuemin="0" aria-valuemax="100" style="width:90%;">
-                                    <span class="sr-only">90% complete</span> 
+                            <div class="col-md-6">
+                                <div class="progress_bar">
+                                    <div class="pro-bar">
+                                        <small class="progress_bar_title">
+                                            HTML5
+                                            <span class="progress_number">89%</span>
+                                        </small>
+                                        <span class="progress-bar-inner" style="background-color: #1abc9c; width: 89%;" data-value="89" data-percentage-value="89"></span>
+                                    </div>
                                 </div>
-                                <span class="progress-type">HTML / HTML5</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" 
-                                aria-valuemin="0" aria-valuemax="100" style="width:80%;">
-                                    <span class="sr-only">80% complete</span> 
+                                <div class="progress_bar">
+                                    <div class="pro-bar">
+                                        <small class="progress_bar_title">
+                                            CSS3
+                                            <span class="progress_number">75%</span>
+                                        </small>
+                                        <span class="progress-bar-inner" style="background-color: #fdba04; width: 75%;" data-value="75" data-percentage-value="75"></span>
+                                    </div>
                                 </div>
-                                <span class="progress-type">CSS / CSS3</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" 
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%;">
-                                    <span class="sr-only">70% complete</span> 
+                                <div class="progress_bar">
+                                    <div class="pro-bar">
+                                        <small class="progress_bar_title">
+                                            Javascript
+                                            <span class="progress_number">0%</span>
+                                        </small>
+                                        <span class="progress-bar-inner" style="background-color: #fdba04; width: 0%;" data-value="75" data-percentage-value="75"></span>
+                                    </div>
                                 </div>
-                            <span class="progress-type">JavaScript / jQuery</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" 
-                                aria-valuemin="0" aria-valuemax="100" style="width:80%;">
-                                    <span class="sr-only">80% complete</span> 
-                                </div>
-                                <span class="progress-type">Django / Python</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" 
-                                aria-valuemin="0" aria-valuemax="100" style="width:80%;">
-                                    <span class="sr-only">80% complete</span> 
-                                </div>
-                                <span class="progress-type">SQL / NoSSQL</span>
+                                <div class="progress_bar">
+                                    <div class="pro-bar">
+                                        <small class="progress_bar_title">
+                                            JQuery
+                                            <span class="progress_number">0%</span>
+                                        </small>
+                                        <span class="progress-bar-inner" style="background-color: #fdba04; width: 0%;" data-value="75" data-percentage-value="75"></span>
+                                    </div>
+                                </div>                               
                             </div>
                         </div>
                     </div>    
