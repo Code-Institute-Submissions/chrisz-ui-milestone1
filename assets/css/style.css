@@ -4,18 +4,38 @@
 body{
     background-color: #000000;
     color: #ffffff;
+    background-image: url(../img/Layer\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 200px;
 }
 
-.test{
-    padding: 0;
+a.social-icon{
+    color: gold;
+}
+
+.link-contact{
+    color: white;
+    text-decoration: none;
+    text-emphasis: true;
+}
+
+.link-contact:hover{
+    color: gold;
+}
+
+.main-name{
+    color: white;
+    text-decoration-color: gold;
+    text-decoration-thickness: 3px;
+}
+.main-name:hover{
+    color: white;
 }
 
 /*--------------------------------------Special paddings/margins/text */
-.pages{
-    /*padding-top: 100px; have to add padding when smaller for intro*/
-    height: 100vh;
-}
-
 .contact-page{
     padding-top: 100px;
 }

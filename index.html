@@ -15,7 +15,7 @@
     <header>
     <nav id="navigation" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
-                <a class="navbar-brand" href="#">Chris Nuij | Web-developer</a>
+                <a class="text-uppercase navbar-brand" href="#">Chris Nuij | Web-developer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,27 +45,33 @@
             <div class="row">
                 <div class="col-lg-8 home-intro d-flex align-items-center vh-100">
                     <div class="container">
-                        <h1 class="introduction-title">Hi, I'm Chris</h1> 
+                        <h1 class="introduction-title">Hi, I'm <a href="#about" class="main-name">Chris</a></h1> 
                         <h2>A Web-developer</h2>    
                             <p>
                                 Always trying to do better than last time and exceed expectations. Welcome to my portfolio
                             </p>
                             <p>
-                                Send me a message <a class="btn" href="#contact">here</a> or contact me on any of the websites below
+                                Send me a message <a class="link-contact" href="#contact"><strong>here</strong></a> or contact me on any of the websites below
                             </p>
                         <!-- social links -->
                             <div class="social-links">
                                 <div class="col-sm-4">
                                     <ul class="list-inline social-links">
                                         <li class="list-inline-item">
-                                            <a href="#" target="_blank">
-                                                <i class="bi bi-facebook" aria-hidden="true"></i>
+                                            <a class="social-icon"  href="#" target="_blank">
+                                                <i class="bi bi-facebook text-succes" aria-hidden="true"></i>
                                                 <span class="sr-only">Facebook</span>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a href="#" target="_blank">
+                                            <a class="social-icon" href="#" target="_blank">
                                                 <i class="bi bi-linkedin" aria-hidden="true"></i>
+                                                <span class="sr-only">LinkedIn</span>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon" href="#" target="_blank">
+                                                <i class="bi bi-envelope-fill" aria-hidden="true"></i>
                                                 <span class="sr-only">LinkedIn</span>
                                             </a>
                                         </li>
@@ -211,17 +217,20 @@
                             <label for="contactFormMessage" class="form-label">Message</label>
                             <textarea class="form-control" id="contactFormMessage" rows="5"></textarea>
                         </div>
-                    <h2>Or find me on</h2>
-                        <div class="social-links">
+                        <div class="d-flex justify-content-center ">
+                        <button type="submit" class="w-100 btn btn-outline-light">Submit</button>
+                        </div>  
+                    <h2 class="text-uppercase d-flex justify-content-center">Or you can find me on</h2>
+                        <div class="d-flex justify-content-center social-links">
                             <ul class="list-inline social-links">
                                 <li class="list-inline-item">
-                                    <a href="#" target="_blank">
+                                    <a class="social-icon" href="#" target="_blank">
                                         <i class="bi bi-facebook" aria-hidden="true"></i>
                                         <span class="sr-only">Facebook</span>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" target="_blank">
+                                    <a class="social-icon" href="#" target="_blank">
                                         <i class="bi bi-linkedin" aria-hidden="true"></i>
                                         <span class="sr-only">LinkedIn</span>
                                     </a>
