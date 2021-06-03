@@ -19,7 +19,6 @@ a.social-icon{
 .link-contact{
     color: white;
     text-decoration: none;
-    text-emphasis: true;
 }
 
 .link-contact:hover{
@@ -59,7 +58,7 @@ a.social-icon{
 }
 
 .carousel-item{
-    height: 400pxpx;
+    height: 400px;
 }
 
 /*--------------------------------------Home Page */
@@ -95,8 +94,8 @@ a.social-icon{
 }
 .progress_bar .progress_number{
     float: right;
-    margin-top: ;
 }
+
 .progress_bar .progress-bar-inner {
     background-color: hsl(0, 0%, 88%);
     display: block;
