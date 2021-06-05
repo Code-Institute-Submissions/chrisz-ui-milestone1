@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium Web:200,300,400,500,600|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Titillium Web:200,300,400,500,600|Roboto:100,200,300,400,500,600,700');
 /*--------------------------------------colours */
 body{
     background-color: #000000;
@@ -27,6 +27,7 @@ a.social-icon{
 .main-name{
     color: white;
     text-decoration-color: gold;
+    text-decoration-line: underline;
     text-decoration-thickness: 3px;
 }
 .main-name:hover{

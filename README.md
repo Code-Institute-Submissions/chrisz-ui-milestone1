@@ -39,8 +39,9 @@ Read more [here](./assets/milestone1wireframes.pdf)
 - HTML 
   - no errors were returned when passingg through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchrisz-ui.github.io%2Fmilestone1%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchrisz-ui.github.io%2Fmilestone1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
+  - errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchrisz-ui.github.io%2Fmilestone1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - many errors from bootstrap 5
+    - Property text-decoration-thickness doesn't exist : 3px
 
 ## Deployment
 The site is deployed to Github Pages using the following process: 
